@@ -2,9 +2,10 @@
 
 @theme {
   --color-*: initial;
-  --color-bg-app: #ceecff;
+  --color-app-body: #ceecff;
+  --color-dull-white: #fbfbfb;
 }
 
 body {
-  @apply bg-[var(--color-bg-app)];
+  @apply bg-[var(--color-app-body)];
 }
