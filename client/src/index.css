@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+@theme {
+  --color-*: initial;
+  --color-app-body: #ceecff;
+  --color-dull-white: #fbfbfb;
+  --color-blue: #328bbe;
+}
+body {
+  @apply bg-[var(--color-app-body)];
+}
+
+h1 {
+  @apply text-2xl;
+}
+
+h2 {
+  @apply text-xl;
+}
+
+h3 {
+  @apply text-lg;
+}
+
+h4 {
+  @apply text-xl;
+}
